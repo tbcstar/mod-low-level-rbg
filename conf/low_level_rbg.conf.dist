@@ -6,7 +6,7 @@
 
 #
 #    LowLevelRBG.MinLevelRBG
-#        Description: Set min level for players to be able to queue up for RBG using this module
+#        Description: 使用此模块设定玩家排队进入随机战场的最低等级
 #        Default:     10
 #
 
@@ -14,7 +14,7 @@ LowLevelRBG.MinLevelRBG = 10
 
 #
 #    LowLevelRBG.MaxLevelRBG
-#        Description: Set max level for players to be able to queue up for RBG using this module
+#        Description: 使用此模块设定玩家可以排队进入随机战场的最高等级
 #        Default:     79
 #
 

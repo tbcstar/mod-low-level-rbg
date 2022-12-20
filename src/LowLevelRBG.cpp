@@ -50,14 +50,14 @@ public:
 
         if (sConfigMgr->GetOption<int32>("LowLevelRBG.MinLevelRBG", 10) > player->getLevel())
         {
-            handler->PSendSysMessage("Too low level to get queued up for RBG");
+            handler->PSendSysMessage("等级太低，不能排队进入随机战场。");
             handler->SetSentErrorMessage(true);
             return false;
         }
 
         if (sConfigMgr->GetOption<int32>("LowLevelRBG.MaxLevelRBG", 79) < player->getLevel())
         {
-            handler->PSendSysMessage("Too high level to get queued up for RBG");
+            handler->PSendSysMessage("等级过高，不能排队进入随机战场。");
             handler->SetSentErrorMessage(true);
             return false;
         }
